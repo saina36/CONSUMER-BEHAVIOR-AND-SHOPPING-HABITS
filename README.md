@@ -8,9 +8,7 @@ This project presents an interactive Power BI dashboard that analyzes customer p
 
 ---
 
-## 📁 Project Structure
 
----
 
 ## 🔍 Dataset Summary
 
