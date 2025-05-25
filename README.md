@@ -21,6 +21,14 @@ This project presents an interactive Power BI dashboard that analyzes customer p
   - Customer feedback (review rating, subscription status)
 
 ---
+## 🧹 Data Cleaning & Preprocessing
+
+- Imputed missing **numeric values** (`Age`, `Purchase Amount`) using **mean**, as there were **no significant outliers**.
+- Imputed **categorical variables** (`Gender`, `Location`) using **mode**.
+- Removed rows with missing values in less important columns.
+- Validated data completeness and outlier presence using **boxplots**.
+
+---
 
 ## 📌 Key Insights & Visualizations
 
@@ -92,14 +100,7 @@ This project presents an interactive Power BI dashboard that analyzes customer p
 - Fluctuating review ratings across different purchase amounts.
 - Insight: No strong correlation—indicates **customer satisfaction is not strictly tied to how much they spend**.
 
----
 
-## 🧹 Data Cleaning & Preprocessing
-
-- Imputed missing **numeric values** (`Age`, `Purchase Amount`) using **mean**, as there were **no significant outliers**.
-- Imputed **categorical variables** (`Gender`, `Location`) using **mode**.
-- Removed rows with missing values in less important columns.
-- Validated data completeness and outlier presence using **boxplots**.
 
 ---
 
